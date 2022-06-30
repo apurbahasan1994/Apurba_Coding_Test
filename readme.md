@@ -9,6 +9,7 @@ This is sample Angular and Node js project.
 ## Technologies
 Project is created with
 Front-end : Angular 13
+Database : MongoDB 
 Backend : Node js
 
 ## Setup
