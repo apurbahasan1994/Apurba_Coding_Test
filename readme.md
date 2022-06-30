@@ -7,10 +7,10 @@
 This is sample Angular and Node js project.
 
 ## Technologies
-Project is created with
-Front-end : Angular 13
-Database : MongoDB 
-Backend : Node js
+Project is created with  <br />
+Front-end : Angular 13  <br />
+Database : MongoDB   <br />
+Backend : Node js <br />
 
 ## Setup
 To run this project install it <br />
