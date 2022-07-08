@@ -1,0 +1,36 @@
+:host{
+  ::ng-deep .mat-table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius:8px;
+
+  }
+
+  ::ng-deep .mat-row, mat-header-row, mat-footer-row, th.mat-header-cell, td.mat-cell, td.mat-footer-cell{
+    min-width:120px;
+    max-width: 300px;
+    padding: 10px 10px;
+    // border-bottom: 2px solid grey;
+  }
+  ::ng-deep td.mat-cell  {
+    border-bottom:none
+  }
+  ::ng-deep .mat-header-row{
+    border-bottom:2px solid grey ;
+
+  }
+  ::ng-deep .mat-paginator-page-size
+  {
+    order: 3;
+  }
+  ::ng-deep .mat-paginator-range-actions{
+    flex: 70;
+  }
+  ::ng-ddep   .mat-paginator-range-label{
+    margin-right:170px !important;
+
+  }
+  ::ng-deep tr.mat-header-row {
+    height: 40px;
+  }
+}

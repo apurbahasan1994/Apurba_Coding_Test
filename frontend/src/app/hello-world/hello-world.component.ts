@@ -29,7 +29,7 @@ export class HelloWorldComponent implements OnInit {
     this.http.GetWelcomeMessage().subscribe(data => {
       this.isLoading = false;
       const dialogRef = this.dialog.open(HelloWorldModalComponent, {
-        width: '250px',
+        minWidth: '550px',
         data: data,
       });
 
