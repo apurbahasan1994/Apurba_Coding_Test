@@ -37,6 +37,7 @@ export class HelloWorldComponent implements OnInit {
 
   }
   onSubmit() {
+    debugger
     this.isSubmitting = true;
     const inputValue = this.userInputForm.controls['userInputControl'].value;
     this.http.PostUserInput({ "input": inputValue }).subscribe(data => {
